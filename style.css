@@ -1,5 +1,12 @@
+* {
+	/*margin: 0;*/
+	padding: 0;
+	box-sizing: border-box;
+}
+
 body{
-    margin:0px;
+	margin:0px;
+	min-height: 100vh;
 }
 
 #header{
@@ -55,6 +62,133 @@ body{
     color:black;
 }
 
+#footer-div {
+	position: fixed;
+	bottom: 5%;
+	left: 0;
+	width: 100%;
+	align-items: center;
+	flex-direction: column;
+}
+
+footer{
+	position: relative;
+	height: auto;
+	padding: 2.5% 5%;
+	background: #111;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+footer .container{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	flex-direction: row;
+} 
+
+footer .container .sec{
+	margin-right: 30px;
+}
+
+footer .container .sec.aboutus {
+	width: 45%;
+} 
+
+footer .container h2{
+	position: relative;
+	color: #fff;
+	font-weight: 500;
+	margin-bottom: 15px;
+	font-family: "Roboto", sans-serif;
+}
+
+footer .container h2::before{
+	content: '';
+	position: absolute;
+	bottom: -5px;
+	left: 0;
+	width: 50px;
+	height: 2px;
+	background: #f00;
+}
+
+footer p {
+	color: #999;
+	font-family: "Open Sans", sans-serif;
+}
+
+.quickLinks {
+	position: relative;
+	width: 20%;
+	padding-left: 0;
+}
+
+.quickLinks ul li
+{
+	list-style: none;
+	font-family: "Open Sans", sans-serif;
+	padding-left: 0;
+}
+
+.quickLinks ul li a{
+	color: #999;
+	text-decoration: none;
+	margin-bottom: 10px;
+	display: inline-block;
+	padding-left: 0;
+}
+
+.quickLinks ul li a:hover{
+	color: #fff;
+}
+
+.contact{
+	width: calc(35% - 60px);
+	margin-right: 0 !important;
+}
+
+.contact .info 
+{
+	position: relative;
+	font-family: "Open Sans", sans-serif;
+}
+
+.contact .info li{
+	display: flex;
+	margin-bottom: 2%;
+}
+
+.contact .info li span:nth-child(1){
+	color: #fff;
+	font-size: 28px;
+	margin-right: 10px;
+}
+
+.contact .info li span{
+	color: #999;
+}
+
+.contact .info li a{
+	color: #999;
+	text-decoration: none;
+}
+
+.contact .info li a:hover{
+	color: #fff;
+}
+
+.copyrightText{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background: #181818;
+	text-decoration: center;
+	color: #999;
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+}
 
 @media only screen and (max-width: 590px) {
 	#header
@@ -131,3 +265,26 @@ body{
 		display:block;
 	}
  }
+
+@media (max-width: 600px){
+	footer{
+		padding: 40px;
+	}
+
+	footer .container{
+		flex-direction: column;
+	}
+
+	footer .container .sec {
+		margin-right: 0;
+		margin-bottom: 40px;
+	}
+
+	footer .container .sec.aboutus, .quickLinks, .contact {
+		width: 100%;
+	}
+
+	.copyrightText {
+		padding: 8px 40px;
+	}
+}
