@@ -31,35 +31,67 @@ body{
 #logo h1:hover{
     color:black;
 }
-    
+
 #menu{
     float:left;
     width:70%;
 }
 
+menu:after{
+	content: '';
+	clear: both;
+	display: table;
+}
+
 #menu ul{
-        margin-right: 10%;
-        padding: 0;
-        float:right;
-        text-align: center;
+    margin-right: 10%;
+    padding: 0;
+    float:right;
+	list-style: none;
+    text-align: center;
+	position: relative;
 }
     
 #menu ul li{
     cursor:pointer;
-    list-style-type:none;
     display:inline-block;
     padding:8px;
 }
     
 #menu ul li a{
-    font-family:'Roboto', sans-serif;
-    text-decoration:none;
     color:white;
-    font-size:20px;
+    text-decoration:none;
+	font-family:'Roboto', sans-serif;
+    font-size:20px;	
 }
     
 #menu ul li a:hover{
     color:black;
+	transition: 0.5s;
+}
+
+#menu ul ul{
+	position: absolute;
+	right: 0%;
+	top: 90px;
+	opacity: 0;
+	visibility: hidden;
+	transition: top .3s;
+}
+
+#menu ul li:hover > ul{
+	top: 70px;
+	opacity: 1;
+	visibility: visible;
+}
+
+#menu ul ul li{
+	position: relative;
+	width: 350px;
+	float: none;
+	display: list-item;
+	background: red;
+	border-bottom: 1px solid white;
 }
 
 #footer-div {
