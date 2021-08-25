@@ -9,6 +9,6 @@ The website can be viewed [here](https://dishap22.github.io/design-championship-
 # Topics
 1. Books
 2. Films and Music
-3. Important papers / Documents
+3. Important papers and Documents
 4. Prominent leaders
 5. Art and Sculptures
