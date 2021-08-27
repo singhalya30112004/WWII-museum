@@ -2,110 +2,66 @@
 <!DOCTYPE html>
 <html>
 	<head>
-	<title>Museum Site</title>
+		<title>Museum of WWII History</title>
 
-	<!-- Metadata -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=1 shrink-to-fit=no">
+		<!-- Metadata -->
+		<meta name="viewport" content="with=device-width, initial-scale=1.0">
+
+		<!-- Stylesheets -->
+		<link rel="stylesheet" href="style.css">
+
+		<!-- Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 	
-	<!-- Stylesheets -->
-	<link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="responsive.css">
-
-	<!-- Fonts -->
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
-
-	<!-- Icons -->
-	<script src="https://kit.fontawesome.com/0e2c6c821a.js" crossorigin="anonymous"></script>
+		<!-- Icons -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+		<script src="https://kit.fontawesome.com/0e2c6c821a.js" crossorigin="anonymous"></script>
 	</head>
-<body>
 
-<!-- Header Div -->	
-<div id="header">
-		<div id="logo">
-			<h1>MUSEUM</h1>
-		</div>
-	        <div id="menu">
-		   <ul>
-			<li> <a href="#">Home</a></li>
-			<li> <a href="#">Gallery</a></li>
-			<li> <a href="#">About</a></li>
-			<li> <a href="#">Contact</a></li>
-		   </ul>
-         </div>
-</div>
 
-<!-- Floor Plan Navigation -->
-<div id="floor-plan">
-	<div id="dropdown">
-		<h1>MUSEUM</h1>
-	</div>
+	<body>
 
-	<div id="plan-images">
-		<img src="" alt="">
-		<img src="" alt="">
-	</div>
-</div>
-
-<div id="footer-div">
-<footer>
-	<div class="container">
-		<div class="sec aboutus">
-			<h2>About Us</h2>
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum ullam tempora consequatur eaque quas. Sunt placeat eligendi animi, fuga esse suscipit quam officiis cum consequatur nam commodi illo doloremque nihil.
-			</p>		
-		</div>
-		<div class= "sec quickLinks">
-			<h2>Quick Links</h2>
-			<ul>
-<<<<<<< HEAD
-				<li> <a href="#">Home</a></li>
-				<li> <a href="#">About</a></li>
-				<li><a href="#">Tour</a>
+		<!-- Header -->
+		<section class="header">
+			<nav>
+				<a href="index.html"><img src="images/logo-removebg-preview.png" alt=""></a>
+				<div class="nav-links" id="navLinks">
+					<i class="fas fa-times" onclick="hideMenu()"></i>
 					<ul>
-						<li> <a href="#">Books</a></li>
-						<li> <a href="#">Films and Music</a></li>
-						<li> <a href="#">Important papers and Documents</a></li>
-						<li> <a href="#">Prominent leaders</a></li>
-						<li> <a href="#">Art and Sculptures</a></li>
+						<li><a href="">HOME</a></li>
+						<li><a href="">ABOUT</a></li>
+						<li><a href="">TOUR</a></li>
+						<li><a href="">CONTACT</a></li>
 					</ul>
-				</li>
-				<li> <a href="#">Contact</a></li>
-=======
-				<li><a href="#">Home</a></li>
-				<li><a href="#">Gallery</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Contact</a></li>
->>>>>>> 9511d56d6d99dea3d24096be0a934af227f3fe37
-			</ul>
-		</div>
-		<div class="sec contact">
-			<h2>Contact Info</h2>
-			<ul class="info">
-				<li>
-					<span><i class="fas fa-map-marker-alt fa-sm" ></i></span>
-					<span>Temp address <br> Temp location, State, Zip Code</span>
-				</li>
-				<li>
-					<span><i class="fas fa-phone-alt fa-sm" ></i></span>
-					<p><a href="tel:12345678900">+1 234 567 8900</a><br><a href="tel:12345678900">+1 234 567 8900</a></p>
-				</li>
-				<li>
-					<span><i class="fas fa-envelope fa-sm" ></i></span>
-					<p><a href="mailto:temporary@email.com">temporary@email.com</a></p>
-				</li>
-			</ul>
-		</div>
-	</div>
-</footer>
-<div class="copyrightText">
-	<p>Copyright ©  2021 Disha Pant and Alya Singh</p>
-</div>
-</div>
+				</div>
+				<i class="fas fa-bars" onclick="showMenu()"></i>
+			</nav>
 
+			<div class="text-box">
+				<h1>World's Largest World War II Museum</h1>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit non dolorem in beatae dignissimos neque, facere cumque? Nesciunt veritatis eveniet totam laudantium voluptates et voluptas soluta, inventore minima incidunt minus.</p>
+				<a href="" class="btn1">Take a tour!</a>
+			</div>
+		</section>
 
-</body>
+		<!-- Exhibitions -->
+		<section class="exhibition">
+			<h1>Our Exhibitions</h1>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore blanditiis modi quasi dolor id numquam necessitatibus quidem rerum expedita ex distinctio deserunt eius autem nostrum, ea debitis dicta delectus saepe?</p>
+		</section>
+		
+
+		<!-- Menu Toggle -->
+		<script>
+			var navLinks = document.getElementById("navLinks");
+			function showMenu(){
+				navLinks.style.right = "0";
+			}
+			function hideMenu(){
+				navLinks.style.right = "-200px";
+			}
+		</script>
+	</body>
 </html>
