@@ -1,67 +1,190 @@
-
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Museum of WWII History</title>
 
-		<!-- Metadata -->
-		<meta name="viewport" content="with=device-width, initial-scale=1.0">
+<head>
+	<title>Museum of WWII History</title>
 
-		<!-- Stylesheets -->
-		<link rel="stylesheet" href="style.css">
+	<!-- Metadata -->
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
 
-		<!-- Fonts -->
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-	
-		<!-- Icons -->
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
-		<script src="https://kit.fontawesome.com/0e2c6c821a.js" crossorigin="anonymous"></script>
-	</head>
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="style.css">
+
+	<!-- Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+		rel="stylesheet">
+
+	<!-- Icons -->
+	<link rel="stylesheet"
+		href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+	<script src="https://kit.fontawesome.com/0e2c6c821a.js" crossorigin="anonymous"></script>
+</head>
 
 
-	<body>
+<body>
 
-		<!-- Header -->
-		<section class="header">
-			<nav>
-				<a href="index.html"><img src="images/logo-removebg-preview.png" alt=""></a>
-				<div class="nav-links" id="navLinks">
-					<i class="fas fa-times" onclick="hideMenu()"></i>
-					<ul>
-						<li><a href="">HOME</a></li>
-						<li><a href="">ABOUT</a></li>
-						<li><a href="">TOUR</a></li>
-						<li><a href="">CONTACT</a></li>
-					</ul>
-				</div>
-				<i class="fas fa-bars" onclick="showMenu()"></i>
-			</nav>
-
-			<div class="text-box">
-				<h1>World's Largest World War II Museum</h1>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit non dolorem in beatae dignissimos neque, facere cumque? Nesciunt veritatis eveniet totam laudantium voluptates et voluptas soluta, inventore minima incidunt minus.</p>
-				<a href="" class="btn1">Take a tour!</a>
+	<!-- Header -->
+	<section class="header">
+		<nav>
+			<a href="index.html"><img src="images/logo-removebg-preview.png" alt=""></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fas fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="">HOME</a></li>
+					<li><a href="">ABOUT</a></li>
+					<li><a href="">TOUR</a></li>
+					<li><a href="">CONTACT</a></li>
+				</ul>
 			</div>
-		</section>
+			<i class="fas fa-bars" onclick="showMenu()"></i>
+		</nav>
 
-		<!-- Exhibitions -->
-		<section class="exhibition">
-			<h1>Our Exhibitions</h1>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore blanditiis modi quasi dolor id numquam necessitatibus quidem rerum expedita ex distinctio deserunt eius autem nostrum, ea debitis dicta delectus saepe?</p>
-		</section>
-		
+		<div class="text-box">
+			<h1>World's Largest World War II Museum</h1>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit non dolorem in beatae dignissimos neque,
+				facere cumque? Nesciunt veritatis eveniet totam laudantium voluptates et voluptas soluta, inventore
+				minima incidunt minus.</p>
+			<a href="" class="btn1">Take a tour!</a>
+		</div>
+	</section>
 
-		<!-- Menu Toggle -->
-		<script>
-			var navLinks = document.getElementById("navLinks");
-			function showMenu(){
-				navLinks.style.right = "0";
-			}
-			function hideMenu(){
-				navLinks.style.right = "-200px";
-			}
-		</script>
-	</body>
+	<!-- Exhibitions -->
+	<section class="exhibition">
+		<h1>Our Exhibitions</h1>
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore blanditiis modi quasi dolor id numquam
+			necessitatibus quidem rerum expedita ex distinctio deserunt eius autem nostrum, ea debitis dicta delectus
+			saepe?</p>
+
+		<div class="row1">
+			<div class="exhibition-col1">
+				<img src="images/Books.png">
+				<div class="layer1">
+					<h3>BOOKS</h3>
+				</div>
+				<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime enim repellat consequatur illum
+					odio, dolor dolore tenetur fugit ducimus, minima minus similique laborum! Aliquam est obcaecati sed
+					dolorum necessitatibus beatae.</p>
+			</div>
+			<div class="exhibition-col1">
+				<img src="images/Films&Musics.png">
+				<div class="layer1">
+					<h3>FILMS AND MUSIC</h3>
+				</div>
+				<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime enim repellat consequatur illum
+					odio, dolor dolore tenetur fugit ducimus, minima minus similique laborum! Aliquam est obcaecati sed
+					dolorum necessitatibus beatae.</p>
+			</div>
+			<div class="exhibition-col1">
+				<img src="images/ImportantPapers&Documents.png">
+				<div class="layer1">
+					<h3>IMPORTANT PAPERS AND DOCUMENTS</h3>
+				</div>
+				<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime enim repellat consequatur illum
+					odio, dolor dolore tenetur fugit ducimus, minima minus similique laborum! Aliquam est obcaecati sed
+					dolorum necessitatibus beatae.</p>
+			</div>
+		</div>
+		<div class="row2">
+			<div class="exhibition-col2">
+				<img src="images/ProminentLeaders.png">
+				<div class="layer2">
+					<h3>PROMINENT LEADERS</h3>
+				</div>
+				<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime enim repellat consequatur illum
+					odio, dolor dolore tenetur fugit ducimus, minima minus similique laborum! Aliquam est obcaecati sed
+					dolorum necessitatibus beatae.</p>
+			</div>
+			<div class="exhibition-col2">
+				<img src="images/ProminentLeaders.png">
+				<div class="layer2">
+					<h3>ART AND SCULPTURES</h3>
+				</div>
+				<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime enim repellat consequatur illum
+					odio, dolor dolore tenetur fugit ducimus, minima minus similique laborum! Aliquam est obcaecati
+					sed
+					dolorum necessitatibus beatae.</p>
+			</div>
+		</div>
+		</div>
+	</section>
+
+	<!-- Testimonials -->
+	<section class="testimonials">
+		<h1>What our Visitors Say</h1>
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi temporibus quibusdam consectetur corrupti
+			illum explicabo dolore? Blanditiis laborum, vel qui commodi nemo quod, mollitia consectetur cumque
+			repellendus cupiditate saepe totam?</p>
+
+		<div class="row">
+			<div class="testimonial-col">
+				<img src="images/User1.png">
+				<div>
+					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta sint nemo eius officiis nostrum
+						adipisci minus tenetur ipsam. Omnis eius consectetur facere, error natus qui velit! Sequi magnam
+						aliquam nihil.</p>
+					<h3>Christine Berkley</h3>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star-half-alt"></i>
+				</div>
+			</div>
+			<div class="testimonial-col">
+				<img src="images/User1.png">
+				<div>
+					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta sint nemo eius officiis nostrum
+						adipisci minus tenetur ipsam. Omnis eius consectetur facere, error natus qui velit! Sequi magnam
+						aliquam nihil.</p>
+					<h3>Christine Berkley</h3>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star-half-alt"></i>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Contact US -->
+	<section class="cu">
+		<h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente natus veniam omnis voluptas ullam?
+			Distinctio doloribus, dolorem nam molestiae minus magnam mollitia sunt possimus iure dolorum atque, deserunt
+			impedit vel?</h1>
+		<a href="" class="btn1">CONTACT US</a>
+
+	</section>
+
+	<!-- Footer -->
+	<section class="footer">
+		<h4>About Us</h4>
+		<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid nam ullam voluptatem harum, adipisci, nisi
+			<br>
+			accusamus et repellendus tenetur voluptates dolore illum animi, in ab sint error odio maiores quam?
+		</p>
+		<div class="icons">
+			<i class="fab fa-facebook-f"></i>
+			<i class="fab fa-twitter"></i>
+			<i class="fab fa-instagram"></i>
+			<i class="fab fa-linkedin"></i>
+		</div>
+		<p>Made with <i class="far fa-heart"></i> by Alya Singh and Disha Pant</p>
+	</section>
+
+	<!-- Menu Toggle -->
+	<script>
+		var navLinks = document.getElementById("navLinks");
+		function showMenu() {
+			navLinks.style.right = "0";
+		}
+		function hideMenu() {
+			navLinks.style.right = "-200px";
+		}
+	</script>
+</body>
+
 </html>
