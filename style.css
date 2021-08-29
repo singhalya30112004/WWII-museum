@@ -72,7 +72,7 @@ nav img {
 }
 
 .nav-links ul ul li{
-	width: 260px;
+	width: 300px;
 	height: 30px;
 	float: none;
 }
@@ -117,7 +117,6 @@ nav img {
 
 nav .fas {
 	display: none;
-
 }
 
 @media(max-width: 700px){
