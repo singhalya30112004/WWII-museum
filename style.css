@@ -619,3 +619,92 @@ h3 {
 	margin-bottom: 15px;
 	text-align: left;
 }
+
+/* Tour */
+.tour {
+	width: 80%;
+	margin: auto;
+	padding: 60px 0;
+}
+
+.tour-left {
+	flex-basis: 65%;
+}
+
+.tour-left img {
+	width: 100%;
+}
+
+.tour-left h2 {
+	color: #222;
+	margin: 30px 0;
+	font-weight: 600;
+}
+
+.tour-right {
+	flex-basis: 32%;
+}
+
+.tour-right h3{
+	background: #f44336;
+	color: #fff;
+	padding: 7px 0;
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+
+.tour-right div{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: #555;
+	padding: 8px;
+	box-sizing: border-box;
+}
+
+.tour-right a {
+	text-decoration: none;
+	color: #555;
+}
+
+#room1 {
+	color: #FE6F5D;
+}
+
+#room1:hover a {
+	color: #FE6F5D;
+}
+
+#room2 {
+	color: #FFB85C;
+}
+
+#room2:hover a {
+	color: #FFB85C;
+}
+
+#room3 {
+	color: #FDD235;
+}
+
+#room3:hover a {
+	color: #FDD235;
+}
+
+#room4 {
+	color: #93D35F;
+}
+
+#room4:hover a {
+	color: #93D35F;
+}
+
+#room5 {
+	color: #6FC3B6;
+	;
+}
+
+#room5:hover a {
+	color: #6FC3B6;
+	;
+}
