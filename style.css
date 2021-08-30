@@ -508,11 +508,13 @@ p{
 .map-responsive {
 	width: 80%;
 	margin: auto;
-	padding: 80px 0;
+	padding: 80px 0 0 0;
+	text-align: center;
 }
 
 .map-responsive iframe{
 	width: 100%;
+	padding-top: 40px;
 }
 
 /* Exhibition Items */
