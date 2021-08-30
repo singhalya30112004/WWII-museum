@@ -24,15 +24,17 @@ nav img {
 	width: 150px;
 }
 
-.nav-links {
+.nav-links ul{
 	flex: 1;
-	text-align: right;
+	text-align: center;
+	padding: 8px 12px;
+	float: center;
+	margin-right: 40px;
 }
 
 .nav-links ul li {
 	list-style: none;
 	display: inline-block;
-	padding: 8px 12px;
 	position: relative;
 }
 
@@ -40,9 +42,11 @@ nav img {
 	color: #fff;
 	text-decoration: none;
 	font-size: 13px;
+	display: block;
+	padding: 0 15px;
 }
 
-.nav-links ul li::after {
+.nav-links ul li:after {
 	content: '';
 	width: 0%;
 	height: 2px;
@@ -52,8 +56,25 @@ nav img {
 	transition: 0.5s;
 }
 
-.nav-links ul li:hover::after{
-	width: 100%;
+.nav-links ul li:hover:after{
+	width: 30%;
+}
+
+.nav-links ul ul{
+	position: absolute;
+	background-color: black;
+	opacity: 0.8;
+	display: none;
+}
+
+.nav-links ul li:hover > ul{
+	display: block;
+}
+
+.nav-links ul ul li{
+	width: 300px;
+	height: 30px;
+	float: none;
 }
 
 .text-box {
@@ -96,7 +117,6 @@ nav img {
 
 nav .fas {
 	display: none;
-
 }
 
 @media(max-width: 700px){
