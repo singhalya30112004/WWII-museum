@@ -54,7 +54,7 @@ nav img {
 .nav-links ul li ul{
 	position: absolute;
 	top: 40px;
-	left: -100px;
+	left: -80px;
 	background-color: black;
 	display: block;
 	width: 255px;
