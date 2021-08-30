@@ -25,17 +25,22 @@ nav img {
 }
 
 .nav-links ul{
-	flex: 1;
-	text-align: center;
-	padding: 8px 12px;
-	float: center;
-	margin-right: 40px;
+	width: 100%;
+}
+
+.nav-links ul{
+	display: flex;
+	justify-content: flex-end;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0;
 }
 
 .nav-links ul li {
 	list-style: none;
-	display: inline-block;
 	position: relative;
+	padding: 10px 0;
+	transition: 0.5s;
 }
 
 .nav-links ul li a {
@@ -43,7 +48,29 @@ nav img {
 	text-decoration: none;
 	font-size: 13px;
 	display: block;
-	padding: 0 15px;
+	padding: 0 20px;
+}
+
+.nav-links ul li ul{
+	position: absolute;
+	top: 40px;
+	left: -100px;
+	background-color: black;
+	display: block;
+	width: 255px;
+	transition: 0.5s;
+	opacity: 0;
+	visibility: hidden;
+	float: none;
+}
+
+.nav-links ul li:hover ul{
+	opacity: 1;
+	visibility: visible;
+}
+
+.nav-links ul ul li{
+	height: 30px;
 }
 
 .nav-links ul li:after {
@@ -58,23 +85,6 @@ nav img {
 
 .nav-links ul li:hover:after{
 	width: 30%;
-}
-
-.nav-links ul ul{
-	position: absolute;
-	background-color: black;
-	opacity: 0.8;
-	display: none;
-}
-
-.nav-links ul li:hover > ul{
-	display: block;
-}
-
-.nav-links ul ul li{
-	width: 300px;
-	height: 30px;
-	float: none;
 }
 
 .text-box {
@@ -124,8 +134,19 @@ nav .fas {
 		font-size: 16px;
 	}
 
+	.nav-links ul{
+		display: block;
+		padding: 30px;
+	}
+
 	.nav-links ul li{
 		display: block;
+	}
+
+	.nav-links ul li ul{
+		width: 100%;
+		z-index: 1;
+		left: -100px;
 	}
 
 	.nav-links{
@@ -147,10 +168,6 @@ nav .fas {
 		font-size: 22px;
 		cursor: pointer;
 		margin: 10px;
-	}
-
-	.nav-links ul {
-		padding: 30px;
 	}
 }
 /* Exhibitions */
