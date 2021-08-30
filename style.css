@@ -708,3 +708,13 @@ h3 {
 	color: #6FC3B6;
 	;
 }
+
+.map-responsive {
+	width: 80%;
+	margin: auto;
+	padding: 80px 0;
+}
+
+.map-responsive iframe{
+	width: 100%;
+}
