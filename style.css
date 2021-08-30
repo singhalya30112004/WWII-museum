@@ -504,6 +504,17 @@ p{
 	box-sizing: border-box;
 }
 
+/* Virtual Tour */
+.map-responsive {
+	width: 80%;
+	margin: auto;
+	padding: 80px 0;
+}
+
+.map-responsive iframe{
+	width: 100%;
+}
+
 /* Exhibition Items */
 .items {
 	width: 80%;
@@ -727,14 +738,4 @@ h3 {
 #room5:hover a {
 	color: #6FC3B6;
 	;
-}
-
-.map-responsive {
-	width: 80%;
-	margin: auto;
-	padding: 80px 0;
-}
-
-.map-responsive iframe{
-	width: 100%;
 }
