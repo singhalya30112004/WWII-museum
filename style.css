@@ -569,8 +569,11 @@ p {
 	background: #fff3f3;
 	border-radius: 10px;
 	margin-bottom: 5%;
+	margin-right: 1%;
+	margin-left: 1%;
 	padding: 20px 12px;
 	box-sizing: border-box;
+	height: fit-content;
 }
 
 h3 {
