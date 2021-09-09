@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Museum of WWII History</title>
+
+    <!-- Metadata -->
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/0e2c6c821a.js" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+
+    <!-- Header -->
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo-removebg-preview.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="tour.html">TOUR</a>
+                        <ul>
+                            <li><a href="books.html">Books</a></li>
+                            <li><a href="film_and_music.html">Films and Music</a></li>
+                            <li><a href="important_documents.html">Important Documents</a></li>
+                            <li><a href="prominent_leaders.html">Prominent leaders</a></li>
+                            <li><a href="art_and_sculptures.html">Art and Sculptures</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Important Papers and Documents</h1>
+    </section>
+
+    <!-- Virtual Tour -->
+    <section class="map-responsive">
+        <h1>Tour</h1>
+        <p>Propoganda from the war</p>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!4v1630292668275!6m8!1m7!1sCAoSLEFGMVFpcE5SZTBST1FoLURwMHFtSzY0ZzVTbkt0MGFQeGhXZzJVNXhWY3VT!2m2!1d29.9431497!2d-90.0703166!3f194.96785!4f17.10611!5f0.7820865974627469"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    <!-- Extra  Exhibition Features -->
+    <section class="extra">
+        <h1>Archives</h1>
+
+        <div class="exh-row">
+            <div class="extra-col">
+                <img src="images/CanadianDeclaration.png" height="300px">
+                <h3>Canadian Declaration of War on Germany</h3>
+                <p>A recommendation for a declaration of war by Canada on Nazi Germany was announced in a speech made by
+                    Canadian Prime Minister William Lyon Mackenzie King on 3 September 1939. Though Mackenzie King
+                    was in Ottawa at the time of his speech, it was broadcast over the radio. There was also a Canadian
+                    announcement in the Canadian newspaper, the Canada Gazette. The declaration of war was made on 10
+                    September 1939, just 7 days after the United Kingdom and France declared war.</p>
+            </div>
+
+            <div class="extra-col">
+                <img src="images/BerlinDeclaration.png" height="300px">
+                <h3>Berlin Declaration</h3>
+                <p>The Berlin Declaration of 5 June 1945,[n 1] had the governments of the United States, the Soviet
+                    Union, the United Kingdom and France, acting on behalf of the Allies of World War II, jointly assume
+                    "supreme authority" over German territory and asserted the legitimacy of their joint determination
+                    of issues regarding its administration and boundaries prior to the forthcoming Potsdam Conference.
+                </p>
+            </div>
+
+            <div class="extra-col">
+                <img src="images/ItalianDeclaration.png" height="300px">
+                <h3>Italian Declaration of War on the United States</h3>
+                <p>On December 11, 1941, Italy declared war on the United States in response to the latter's declaration
+                    of war upon the Empire of Japan following the attack on Pearl Harbor four days earlier. Germany also
+                    declared war on the U.S. the same day. The US immediately responded by declaring war on Germany and
+                    Italy, thus thrusting the United States in fighting two major fronts across the Pacific and Atlantic
+                    Oceans in World War II.</p>
+            </div>
+        </div>
+        <div class="exh-row">
+            <div class="extra-col">
+                <img src="images/instrument.jpg">
+                <h3>Instrument of Surrender</h3>
+                <p>The Pakistani Instrument of Surrender was a written agreement that enabled the surrender of 93,000
+                    soldiers of the Pakistan Armed Forces Eastern Command on 16 December 1971, thereby ending the
+                    Bangladesh Liberation War and the creation of the nation of Bangladesh.</p>
+            </div>
+
+            <div class="extra-col">
+                <img src="images/ration.jpg">
+                <h3>National Ration Book</h3>
+                <p>Every American was issued a series of ration books during the war. The ration books contained
+                    removable stamps good for certain rationed items, like sugar, meat, cooking oil, and canned goods. A
+                    person could not buy a rationed item without also giving the grocer the right ration stamp.</p>
+            </div>
+
+            <div class="extra-col">
+                <img src="images/telegram.jpg">
+                <h3>Fake Telegrams</h3>
+                <p>The Zimmermann Telegram was a secret diplomatic communication
+                    issued from the German Foreign Office in January 1917 that proposed a military alliance between
+                    Germany and Mexico if the United States entered World War I against Germany. Mexico would recover
+                    Texas, Arizona, and New Mexico. The telegram was intercepted and decoded by British intelligence.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>We at the World War II Museum aim at bringing the knowledge and experiences of the books,
+            <br>
+            music, films, art, documents and more of World War II right to your home!
+        </p>
+        <div class="icons">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>
+        </div>
+        <p>Copyright © 2021 · Alya Singh and Disha Pant</p>
+    </section>
+
+    <!-- Menu Toggle -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
